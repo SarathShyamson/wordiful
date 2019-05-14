@@ -1,4 +1,6 @@
 <?php
+
+// connecting to mysql server and database
 $dblink = mysqli_connect("localhost", "root", "", "dictionary");
 /* If connection fails throw an error */
 if (mysqli_connect_errno()) {
